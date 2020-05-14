@@ -1,0 +1,237 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+      .isStuck{
+    left:0;
+    right:0;
+    width:100%;
+    background:#E7E8FE;
+}
+
+
+.navbar-wrapper {
+      margin-top:0;
+      position: relative;
+      z-index: 55;
+  }
+    .navbar-toggler {
+        font-size: 1rem;
+        margin:0;    
+         padding:.5rem;
+    }
+    .header-slide .social-icon-inner h2 {
+        font-size: 1.5rem;
+        padding: 0 2rem;
+     }
+    .header-slide .btn-info {
+        padding: .3rem 1rem;
+        font-size: .8rem;
+    }
+    .wordpress-section .wordpress-left .btn-info {
+        padding: .3rem 1rem;
+        font-size: .7rem;
+    }
+    .wordpress-right {
+	    margin-top: 4rem;
+   }
+    .submit-form .form-group {
+	    margin: 1rem auto;
+    }
+    .success-bottom-section .success-bottom-inner .btn-info {
+        padding: .3rem 1rem;
+        font-size: .6rem;
+    }
+    .pricing-section .pricing-inner p {
+	    padding: 1rem 2rem;
+    }
+    .pricing-inner {
+        
+        margin:0 auto 2rem;
+    }
+    .success-bottom-inner {
+    	margin-bottom: 3rem;
+    }
+    .main-form input {
+        text-align: center;
+    	margin-bottom: 1rem;
+    }
+    .footer-title{
+        text-align: center
+    }
+    .footer-section .footer-search1 {
+	    float: none;
+    }
+    .footer-section .social-icon {
+	    float: none;
+    }
+    .footer-section .footer-search1 input {
+       float: none;
+    }
+    .footer-title h2 {
+    	text-align: center;
+    }
+    .footer-title p {
+    	text-align: center;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+     .isStuck{
+    left:0;
+    right:0;
+    width:100%;
+    background:#E7E8FE;
+   }
+
+
+   .navbar-wrapper {
+      margin-top:0;
+      position: relative;
+      z-index: 55;
+  }
+    .navbar-toggler {
+        font-size: 1rem;
+        margin:0;    
+         padding:.5rem .8rem;
+    }
+    .header-slide .social-icon-inner h2 {
+        font-size: 2rem;
+        padding: 0 2rem;
+     }
+    .header-slide .social-icon-inner p{
+        padding:1.2rem 4rem;
+      }
+     .header-slide .btn-info{
+        padding: .4rem 1.2rem;
+        font-size: .8rem;
+    }
+    .inner-content p {
+	    padding: 0 2rem;
+    }
+    .bottom-inner {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .wordpress-section .wordpress-left .btn-info {
+    	padding: .4rem 1.4rem;
+    }
+     .wordpress-right {
+	    margin-top: 4rem;
+   }
+    .submit-form .form-group {
+	    margin: 1rem auto;
+    }
+     .pricing-inner {
+      
+        margin:0 auto 2rem;
+    }
+    .success-bottom-inner {
+	    margin-bottom: 3rem;
+    }
+     .footer-title{
+        text-align: center
+    }
+    .footer-section .footer-search1 {
+	    float: none;
+    }
+    .footer-section .social-icon {
+	    float: none;
+    }
+    .footer-section .footer-search1 input {
+       float: none;
+    }
+    .footer-title h2 {
+    	text-align: center;
+    }
+    .footer-title p {
+    	text-align: center;
+    }
+
+    
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .isStuck{
+    left:0;
+    right:0;
+    width:100%;
+    background:#E7E8FE;
+   }
+
+
+   .navbar-wrapper {
+      margin-top:0;
+      position: relative;
+      z-index: 55;
+  }
+    .navbar-expand-md .navbar-nav .nav-link {
+	padding:0 .7rem 0 0;
+    }
+    .header-section .btn-outline-success {
+        padding: .4rem 1rem;
+        font-size: .8rem;
+    }
+    .header-slide .social-icon-inner h2 {
+        font-size: 2.25rem;
+        padding: 0 12rem;
+     }
+    .success-bottom-inner .btn-info {
+        padding: .3rem .8rem;
+        font-size: .8rem;
+    }
+    .success-bottom-inner h3{
+        font-size:1.5rem
+    }
+    .inner-content p {
+        padding:0;
+    }
+    .pricing-section .pricing-inner p {
+        font-size: .7rem;
+        padding: 1rem 0rem;
+    }
+    .social-icon li {
+        display: inline-block;
+        padding: .5rem .3rem;
+    }
+   
+}
+
+
+@media (min-width:1025px) {
+
+
+     .isStuck{
+    left:0;
+    right:0;
+    width:100%;
+    background:#E7E8FE;
+   }
+
+
+   .navbar-wrapper {
+      margin-top:0;
+      position: relative;
+      z-index: 55;
+  }
+
+
+}
+

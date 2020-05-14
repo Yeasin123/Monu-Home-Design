@@ -1,0 +1,588 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-decoration: nole;
+    box-sizing: border-box;
+}
+
+/********************************
+Header Section Code Start
+**********************************/
+.material-scrolltop{
+    background: #08c;
+    font-size: 2rem;
+    color: #fff;
+    z-index: 20;
+}
+.material-scrolltop:hover{
+    background:#505CFD;
+    transition:1s
+}
+.material-scrolltop:focus{
+    border:none;
+}
+.navbar-toggler {
+    font-size: 2.25rem;
+    margin-right: 1rem;;
+    color: #fff;
+    background: #506a85;
+    line-height: 1.3rem;
+    padding:1rem 1.5rem;
+}
+
+
+
+.header-section{
+    width:100%;
+    padding:1rem 0;
+}
+
+.header-section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    z-index:20;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	color: #595959;
+	font-weight: 600;
+}
+.header-section .btn-outline-success {
+	color: transparent;
+	border-color: #505cfd;
+	color: #595959;
+	padding: .5rem 2.5rem;
+	border-radius: 1.5rem;
+     transition: 1s;
+    font-weight: 600
+}
+.header-section .btn-outline-success:hover{
+     background:#505CFD;
+    transition: 1s;
+    border: .1rem solid #505CFD;
+    color:#FFF
+}
+       
+
+/********************************
+Header Slider Section Code END
+**********************************/
+
+
+/********************************
+Header Slider Section Code Start
+**********************************/
+
+.social-icon li{
+    display:inline-block;
+    padding:1rem;
+}
+.slide-img{
+    width:100%;
+    height:100vh;
+}
+.header-slide{
+    width:100%;
+}
+.header-slide .social-icon-inner h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	padding: 0 27rem;
+    color: #595959;
+}
+.header-slide .social-icon-inner p{
+	padding: 1.5rem 0;
+    color: #595959;
+}
+.header-slide .btn-info {
+	color: #595959;
+	background-color: transparent;
+	border-color: #505cfd;
+	border-radius: 1.5rem;
+	padding: .5rem 2rem;
+    font-weight:600;
+    transition: 1s;
+}
+.header-slide .btn-info:hover{
+     background:#505CFD;
+    transition: 1s;
+    border: .1rem solid #505CFD;
+    color:#FFF
+}
+
+/*******************************
+Header Slider Section Code End
+********************************/
+
+/*******************************
+Bottom_Design Section Code Start
+********************************/
+
+.bottom-inner {
+	width: 100%;
+	background: #505cfd;
+	border-radius: .3rem;
+	margin-top: -3.2rem;
+}
+.bottom-inner .row{
+    margin:0
+}
+.bottom-inner .col-md-4{
+    width: 100%;
+	padding: 2rem 0;
+	border-right: .1rem solid #6a74fc;
+}
+
+
+.inner-content h4 {
+	font-size: 1.3rem;
+	padding: 1.2rem 0 0;
+    color:#FFF;
+}
+.inner-content img{
+    padding-top:2rem;
+    color:#FFF;
+}
+.inner-content p {
+	font-size: .7rem;
+	color: #FFF;
+	line-height: 1.4rem;
+	padding: 0 2rem;
+	margin-bottom: 1.5rem;
+}
+
+/*******************************
+Bottom_Design Section Code End
+********************************/
+
+/*******************************
+Wordpress Section Code Start
+********************************/
+.wordpress-section{
+    width:100%;
+    padding:5rem 0 3rem 0;
+}
+.wordpress-section .wordpress-left h2 {
+	color: #404044;
+	font-size: 1.9rem;
+	padding-bottom: 3rem;
+}
+.wordpress-section .wordpress-left  p{
+  	color: #404044;
+}
+.wordpress-section .wordpress-left .btn-info {
+	color: #595959;
+	background-color: transparent;
+	border-color: #505cfd;
+	border-radius: 1.5rem;
+	padding: .5rem 2rem;
+	font-weight: 600;
+	transition: 1s;
+	margin-top: 2rem;
+}
+.wordpress-section .wordpress-left .btn-info:hover{
+     background:#505CFD;
+    transition: 1s;
+    border: .1rem solid #505CFD;
+    color:#FFF
+}
+.wordpress-right img{
+    width:100%;
+}
+/*******************************
+Wordpress Section Code End
+********************************/
+
+/*******************************
+Success Section Code Start
+********************************/
+.success-section{
+    width:100%;
+    padding:3rem 0;
+    background:url(../images/rectigle.png)center top no-repeat;
+    background-size:cover;
+    text-align: center
+}
+.success-section .success-inner h3{
+    color: #404044;
+	font-size: 1.9rem;
+}
+.submit-form{
+    width:100%;
+}
+.main-form {
+    width:100%;
+    padding:2rem 0;
+}
+.main-form input {
+	padding: .3rem 1.5rem;
+	border-radius: 1rem;
+	border: .1rem solid #ccc;
+}
+
+.main-form .btn-primary {
+	color: #fff;
+	background-color: #505cfd;
+	border-color: #505cfd;
+	border-radius: 2rem;
+	padding: .3rem 2rem;
+}
+
+/*******************************
+Success Section Code End
+********************************/
+
+
+/*******************************
+success-bottom-section Code Start
+********************************/
+
+.success-bottom-section{
+    width: 100%;
+    padding:4rem 0;
+    text-align: center;
+    background:#ffffff
+}
+
+.success-bottom-section .success-bottom-inner img{
+	padding: 2rem 0;
+}
+        
+.success-bottom-section .success-bottom-inner p {
+	font-size: .8rem;
+	padding: .5rem 0;
+}
+.success-bottom-inner {
+    width:100%;
+    border-radius:.4rem;
+    transition:1s;
+    border:.1rem solid #ccc;
+}
+.success-bottom-section .success-bottom-inner .btn-info {
+	color: #595959;
+	background-color: transparent;
+	border-color: #505cfd;
+	border-radius: 1.5rem;
+	padding: .3rem 1.2rem;
+	font-weight: 600;
+	transition: 1s;
+	margin-bottom: 2rem;
+}
+
+.success-bottom-inner:hover{
+   background:rgba(52, 52, 52, 0.9);
+    transition: 1s
+}
+.success-bottom-inner:hover h3{
+    color:#FFF
+}
+.success-bottom-inner:hover p{
+    color:#ccc;
+}
+.success-bottom-inner:hover .btn-info{
+    color:#FFF;
+}
+  
+/*******************************
+success-bottom-section Code End
+********************************/
+
+/*******************************
+pricing-section Code Start
+********************************/
+
+.pricing-section{
+    width:100%;
+    padding:3rem 0;
+    background:#e7e8fe;
+    text-align:center;
+}
+.pricing-title{
+	padding: 1rem 0 2rem 0;
+}
+.pricing-section .pricing-inner h5{
+    padding:1rem 0;
+    color: #595959;
+}
+.pricing-section .pricing-inner p {
+	color: #595959;
+	font-size: .9rem;
+	padding: 1rem 5rem;
+}
+.pricing-section .pricing-inner h3{
+    color:#08c;
+}
+.pricing-section .pricing-inner .btn-info {
+	padding: .4rem 2rem;
+	border-radius: 2rem;
+	background: transparent;
+	color: #595959;
+	border-color: #505cfd;
+    margin-bottom:2rem;
+}
+.pricing-inner{
+    width:100%;
+    border:.1rem solid #cfd1fc;
+    transition:1s
+}
+
+.pricing-inner:hover{ 
+    background:#FFF;
+    transition:1s
+}
+
+
+/*******************************
+pricing-section Code End
+********************************/
+
+/*******************************
+Cuonter section Code Start
+********************************/
+
+.cuonter-section{
+    width:100%;
+     background:#505cfd;
+    padding: 1rem 0;
+}
+
+.cuonter-main{
+    width:100%;
+}
+.cuonter-main img{
+    margin: 2rem 0 .5rem 0;
+}
+.cuonter-main h4{
+    color:#FFF;
+}
+.cuonter-main p{
+     color:#FFF;
+}
+
+/*******************************
+Cuonter section Code End
+********************************/
+
+
+/*******************************
+Team section Code Start
+********************************/
+
+.team-section{
+    width:100%;
+    height:100%;
+}
+.team-section .col-md-3{
+    padding:0;
+}
+.container-fluid{
+    padding:
+}
+.team-inner img{
+    width:100%;
+}
+.team-inner{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+.team-hover{
+    width:90%;
+    height:90%;
+    position:absolute;
+    background:rgba(255, 255, 255, 0.81);
+    top:50%;
+    left:50%;
+     transform: translate(-50%,-50%);
+    text-align: center;
+    display: none;
+}
+.team-hover-content{
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.team-hover-content ul li{
+    display:inline-block;
+    padding:.4rem;
+ 
+}
+.team-hover-content h5{
+    color:#595959;
+}
+.team-hover-content h6{
+    color:#595959;
+}
+.team-hover-content a i{
+       color:#595959;
+}
+.team-inner:hover .team-hover{
+    display: block;
+}
+/*******************************
+Team section Code End
+********************************/
+
+/*******************************
+Blog section Code Start
+********************************/
+
+.blog-section{
+    width:100%;
+    padding:4rem 0;
+}
+.blog-section .card{
+    width:100%;
+}
+
+.blog-title{
+    text-align:center;
+    width:100%;
+    background:#ffffff;
+}
+.card-body p{
+    font-size:.7rem;
+}
+.blog-title p{
+    padding-bottom:2.5rem;
+}
+.blog-inner .card-body {
+	padding: 1rem 0 2rem 0;
+}
+.blog-inner .btn-primary{
+    color: #595959;
+	background-color: transparent;
+	border-color: #505cfd;
+	border-radius: 1.5rem;
+	padding: .3rem 1.2rem;
+	font-weight: 600;
+	transition: 1s;
+	margin-bottom:1rem;
+    font-size:.8rem;
+}
+.blog-inner .btn-primary:hover{
+     background:#505cfd;
+    color:#FFF;
+}
+/*******************************
+Blog section Code End
+********************************/
+
+/*******************************
+Blog-bottom section Code Start
+********************************/
+
+.blog-bottom-section{
+    width:100%;
+    padding:3rem 0 5rem 0;
+}
+.blog-bottom-inner img{
+    
+}
+
+/*******************************
+Blog-bottom section Code End
+********************************/
+
+
+/**************************************
+    Footer section Code Start
+***************************************/
+
+.footer-section{
+    width:100%;
+    padding:90px 0;
+    background:#343434;
+    position: relative;
+}
+.footer-section .footer-about{
+    color:#ffffff;
+}
+.footer-about h2{
+    margin-bottom:30px;
+}
+.footer-about ul li{
+    font-weight:400;
+    line-height: 30px;
+}
+.footer-section  .footer-Services{
+   color:#ffffff; 
+}
+.footer-Services h2{
+    margin-bottom:30px;
+}
+.footer-Services ul li{
+   font-weight:400;
+    line-height: 30px;
+}
+.footer-title h2{
+    font-size: 24px;
+    color:#ffffff;
+    font-weight: 700;
+    text-align: right;
+}
+.footer-title p{
+    font-size: 14px;
+    color:#ffffff;
+    font-weight: 400;
+    text-align: right;
+}
+
+.footer-section .footer-search1 input {
+    padding: 11.6px;
+    background: #fcc302;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fcc302;
+    float: right;
+    width: 95%;
+}
+.footer-section .footer-search1{
+    position: relative;
+    width:100%;
+    float: right;
+}
+.footer-section .footer-search2{
+    position:absolute;
+    top:0;
+    right: 0;
+}
+
+.footer-section .footer-search2 button {
+    padding: 4px 38px;
+    background: #00bec9;
+    border: 1px solid #00bec9;
+    color: #fff;
+    font-size:24px;
+    border: 1px solid #00bec9;
+}
+.footer-section .social-icon li{
+    display: inline-block;
+    border-radius: 50%;
+}
+.footer-section .social-icon{
+    float:right;
+}
+
+.footer-section  .social-icon li .fab {
+    background:#fff;
+    color: #343434;
+    padding: 12px;
+    border-radius: 20px;
+}
+.footer-section  .social-icon li:last-child{
+    padding-right:0;
+}
+
+/**************************************
+    Footer section Code End
+***************************************/
+
